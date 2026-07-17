@@ -27,8 +27,8 @@ body{
 }
 
 .logo img {
-    height: 70px;
-    width: auto;
+    max-width: 120px;
+    height: auto;
 }
 }
 

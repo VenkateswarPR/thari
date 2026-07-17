@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banarasi Soft Silk | THARI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <nav>
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/ThariLifestyle.png" alt="THARI">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sarees.html">Sarees</a></li>
+            <li><a href="kurtis.html">Kurtis</a></li>
+            <li><a href="dresses.html">Dresses</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="product-details">
+
+    <div class="product-image">
+
+        <img src="images/hero.jpeg" alt="Banarasi Soft Silk">
+
+    </div>
+
+    <div class="product-info">
+
+        <h1>Banarasi Soft Silk Saree</h1>
+
+        <h2>₹2,499</h2>
+
+        <p>
+            Premium Banarasi Soft Silk Saree with elegant weaving,
+            suitable for weddings, festivals and special occasions.
+        </p>
+
+        <table>
+
+            <tr>
+                <td><strong>Fabric</strong></td>
+                <td>Soft Silk</td>
+            </tr>
+
+            <tr>
+                <td><strong>Colour</strong></td>
+                <td>Maroon</td>
+            </tr>
+
+            <tr>
+                <td><strong>Blouse</strong></td>
+                <td>Included</td>
+            </tr>
+
+            <tr>
+                <td><strong>Delivery</strong></td>
+                <td>5–7 Working Days</td>
+            </tr>
+
+        </table>
+
+        <a href="#" class="btn">
+            Order on WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+© 2026 THARI. All Rights Reserved.
+
+</footer>
+
+</body>
+
+</html>

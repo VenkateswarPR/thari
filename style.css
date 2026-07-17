@@ -1,6 +1,4 @@
-from pathlib import Path
-
-css = r'''/* ========= THARI COMPLETE STYLE.CSS ========= */
+/* ========= THARI COMPLETE STYLE.CSS ========= */
 
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -370,8 +368,3 @@ footer{
 }
 
 }
-'''
-
-path="/mnt/data/style.css"
-Path(path).write_text(css,encoding="utf-8")
-print(path)

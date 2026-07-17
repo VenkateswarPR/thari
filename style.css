@@ -87,3 +87,96 @@
 .coming-soon p{
     color:#666;
 }
+
+/* =======================
+   Shop By Category
+======================= */
+
+.categories{
+    padding:80px 8%;
+    background:#ffffff;
+}
+
+.categories h2{
+    text-align:center;
+    font-size:42px;
+    color:#5b3b2e;
+    margin-bottom:50px;
+}
+
+.category-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.category-card{
+
+    width:320px;
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.category-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.category-card img{
+
+    width:100%;
+
+    height:350px;
+
+    object-fit:cover;
+
+}
+
+.category-card h3{
+
+    text-align:center;
+
+    margin:20px;
+
+    color:#5b3b2e;
+
+    font-size:28px;
+
+}
+
+.category-card a{
+
+    display:block;
+
+    width:180px;
+
+    margin:20px auto 30px;
+
+    background:#8b5e3c;
+
+    color:white;
+
+    text-align:center;
+
+    padding:12px;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+}
+
+.category-card a:hover{
+
+    background:#5b3b2e;
+
+}

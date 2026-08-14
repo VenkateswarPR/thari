@@ -1,117 +1,173 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="THARI - Premium sarees, kurtis and dresses. Elegance woven into every thread.">
     <title>THARI | Elegance Woven Into Every Thread</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <nav>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a class="brand" href="index.html" aria-label="THARI Home">
+                <span class="brand-mark">T</span>
+                <span class="brand-name">THARI</span>
+            </a>
 
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="THARI Logo">
-                </a>
-            </div>
-
-            <ul>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="collections.html">Collections</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
 
+            <a class="nav-button" href="#collections">Shop Now</a>
         </nav>
     </header>
 
+    <main>
 
-    <!-- Hero Section -->
-    <section class="hero">
+        <section class="hero">
+            <div class="hero-overlay"></div>
 
-        <h1>THARI</h1>
+            <div class="hero-content container">
+                <p class="eyebrow">TIMELESS INDIAN ELEGANCE</p>
+                <h1>Elegance woven<br><span>into every thread.</span></h1>
+                <p class="hero-text">
+                    Discover thoughtfully selected sarees, kurtis and dresses
+                    created to make every occasion feel special.
+                </p>
 
-        <h2>Elegance Woven Into Every Thread</h2>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#collections">Explore Collections</a>
+                    <a class="button button-outline" href="#about">Our Story</a>
+                </div>
+            </div>
+        </section>
 
-        <p>
-            Discover premium sarees, kurtis, and dresses designed
-            to celebrate every woman.
-        </p>
+        <section class="collections section" id="collections">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">OUR COLLECTIONS</p>
+                    <h2>Made for every occasion</h2>
+                    <p>Classic craftsmanship meets contemporary style.</p>
+                </div>
 
-        <a href="collections.html" class="hero-button">
-            Shop Collections
-        </a>
+                <div class="collection-grid">
 
-    </section>
+                    <a class="collection-card sarees-card" href="sarees.html">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <span>01</span>
+                            <h3>Sarees</h3>
+                            <p>Graceful drapes for celebrations and everyday elegance.</p>
+                            <strong>Explore Sarees →</strong>
+                        </div>
+                    </a>
 
+                    <a class="collection-card kurtis-card" href="kurtis.html">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <span>02</span>
+                            <h3>Kurtis</h3>
+                            <p>Effortless comfort with a refined, timeless look.</p>
+                            <strong>Explore Kurtis →</strong>
+                        </div>
+                    </a>
 
-    <!-- Collections Section -->
-    <section class="collections">
+                    <a class="collection-card dresses-card" href="dresses.html">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <span>03</span>
+                            <h3>Dresses</h3>
+                            <p>Modern silhouettes designed with feminine elegance.</p>
+                            <strong>Explore Dresses →</strong>
+                        </div>
+                    </a>
 
-        <h2>Our Collections</h2>
+                </div>
+            </div>
+        </section>
 
-        <div class="cards">
+        <section class="about section" id="about">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">THE THARI PROMISE</p>
+                    <h2>Fashion that feels as beautiful as it looks.</h2>
+                </div>
 
-            <!-- Sarees -->
-            <div class="card">
-                <a href="sarees.html">
-                    <h3>Sarees</h3>
-                    <p>Traditional elegance for every occasion.</p>
+                <div class="about-copy">
+                    <p>
+                        At THARI, we believe clothing should celebrate individuality,
+                        craftsmanship and the beauty of every woman.
+                    </p>
+                    <p>
+                        Our collections are selected with care, combining timeless
+                        Indian aesthetics with styles that fit today's lifestyle.
+                    </p>
+
+                    <div class="features">
+                        <div>
+                            <span>01</span>
+                            <h3>Quality Fabrics</h3>
+                            <p>Comfortable materials selected for lasting wear.</p>
+                        </div>
+                        <div>
+                            <span>02</span>
+                            <h3>Curated Designs</h3>
+                            <p>Thoughtfully selected styles for different occasions.</p>
+                        </div>
+                        <div>
+                            <span>03</span>
+                            <h3>Accessible Luxury</h3>
+                            <p>Elegant fashion without unnecessary extravagance.</p>
+                        </div>
+                        <div>
+                            <span>04</span>
+                            <h3>Personal Touch</h3>
+                            <p>Collections chosen with attention to detail.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="contact">
+            <div class="container cta-content">
+                <p class="eyebrow">DISCOVER THARI</p>
+                <h2>Find something made for you.</h2>
+                <p>Explore our collection and discover your next favourite look.</p>
+                <a class="button button-light" href="#collections">Shop Collections</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <a class="brand footer-brand" href="index.html">
+                    <span class="brand-mark">T</span>
+                    <span class="brand-name">THARI</span>
                 </a>
+                <p>Elegance woven into every thread.</p>
             </div>
 
-
-            <!-- Kurtis -->
-            <div class="card">
-                <a href="kurtis.html">
-                    <h3>Kurtis</h3>
-                    <p>Comfort meets timeless fashion.</p>
-                </a>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="#collections">Collections</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </div>
-
-
-            <!-- Dresses -->
-            <div class="card">
-                <a href="dresses.html">
-                    <h3>Dresses</h3>
-                    <p>Modern styles crafted with elegance.</p>
-                </a>
-            </div>
-
         </div>
 
-    </section>
-
-
-    <!-- Why Choose THARI -->
-    <section class="why">
-
-        <h2>Why Choose THARI?</h2>
-
-        <ul>
-            <li>Premium Quality Fabrics</li>
-            <li>Elegant &amp; Unique Designs</li>
-            <li>Affordable Luxury</li>
-            <li>Handpicked Collections</li>
-        </ul>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-
-        <p>&copy; 2026 THARI. All Rights Reserved.</p>
-
+        <div class="container copyright">
+            <p>&copy; 2026 THARI. All Rights Reserved.</p>
+        </div>
     </footer>
 
 </body>
 </html>
-```
